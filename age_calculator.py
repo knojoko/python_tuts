@@ -2,9 +2,11 @@ import datetime
 
 year = datetime.datetime.now().year
 
+
 # name = input("Enter your first name:  ")
 # year_of_birth = int(input("Enter your year of birth:  "))
 # age = year - year_of_birth
+
 
 def name():
     name = input("Enter your first name: ")
@@ -17,9 +19,18 @@ def age_calculator(x):
 name = name()
 age = age_calculator(int(input("Enter birth year:  ")))
 
+def name():
+    x = input("Enter your first name: ")
+    return x
 
 
-print(f"Hi {name} you are {age} years of age")
+def age_calculation(x):
+    years = year - x
+    return years
 
 
+name = name()
+age = age_calculation(int(input("Enter birth year:  ")))
+
+print(f'Hi {name} you are {age} years of age')
 
