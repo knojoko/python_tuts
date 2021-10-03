@@ -12,25 +12,12 @@ def name():
     name = input("Enter your first name: ")
     return name
 
+
 def age_calculator(x):
-    age = year - x
+    age = year - xKa
     return age
 
 name = name()
 age = age_calculator(int(input("Enter birth year:  ")))
-
-def name():
-    x = input("Enter your first name: ")
-    return x
-
-
-def age_calculation(x):
-    years = year - x
-    return years
-
-
-name = name()
-age = age_calculation(int(input("Enter birth year:  ")))
-
 print(f'Hi {name} you are {age} years of age')
 
