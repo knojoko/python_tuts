@@ -14,7 +14,7 @@ def name():
 
 
 def age_calculator(x):
-    age = year - xKa
+    age = year - x
     return age
 
 name = name()
